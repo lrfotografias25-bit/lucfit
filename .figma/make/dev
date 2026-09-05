@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Remove stale Vite dep-optimization temp dirs before each start
+rm -rf node_modules/.vite
+
+exec pnpm exec vite --port "$PORT" --host

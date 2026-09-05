@@ -1,0 +1,11 @@
+{
+  "title": "Lucfit.com",
+  "description": "Empowers fitness instructors with tools to manage classes, track progress, and engage clients for optimized training and growth.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
